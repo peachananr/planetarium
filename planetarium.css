@@ -1,0 +1,68 @@
+.ptr-shape {
+  padding: 50px;
+  display: inline-block;
+}
+
+.ptr-planet {
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.ptr-interacting .ptr-planet {
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  animation: none !important;
+}
+
+.ptr-space {
+  background: url(../img/stardust.jpg) repeat;
+}
+
+.ptr-shape {
+  -webkit-animation: float 3s infinite ease-in-out;
+  -moz-animation: float 3s infinite ease-in-out;
+  animation: float 3s infinite ease-in-out;
+}
+
+.ptr-ring {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+@-webkit-keyframes float{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);}    
+}
+
+@-moz-keyframes float{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+@keyframes float{
+    from {transform:translate(0, 0px);}
+    65% {transform:translate(0, 15px);}
+    to {transform: translate(0, -0px);}    
+}
+
+@keyframes rotate {
+  from { background-position:0; } 
+  to { background-position:200%; }
+}
+@-webkit-keyframes rotate {
+  from { background-position:0; } 
+  to { background-position:200%; }
+}
+
+@-moz-keyframes rotate {
+  from { background-position:0; } 
+  to { background-position:200%; }
+}
+
