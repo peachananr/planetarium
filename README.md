@@ -100,7 +100,7 @@ Individually assign a planet with its own ring's angle option:
   <div class="earth planet" data-ptr-ringangle="30deg"></div>
 ````
 
-Now you will have create a micro solar system right in front of you, no science required. :)
+Now you will have create a micro solar system right in front of you, no rocket science required. :)
 
 
 If you want to see more of my plugins, visit [The Pete Design](http://www.thepetedesign.com/#design), or follow me on [Twitter](http://www.twitter.com/peachananr) and [Github](http://www.github.com/peachananr).
